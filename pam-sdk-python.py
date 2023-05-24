@@ -44,7 +44,7 @@ class ShiftechAPI:
         headers = {
             'Accept': 'application/json',
             'Content-Type': 'application/json',
-            'Authorization': f'Bearer {beartoken}'
+            'Authorization': f"Bearer {beartoken}"
         }
 
         response = requests.request("GET", url, headers=headers, data=payload)
