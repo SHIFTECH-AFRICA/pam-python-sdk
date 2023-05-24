@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#import modules 
 import requests
 import json 
 
