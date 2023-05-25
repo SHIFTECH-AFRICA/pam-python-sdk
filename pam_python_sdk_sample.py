@@ -1,4 +1,4 @@
-from pam-sdk-python import ShiftechAPI
+from pamsdkpython import ShiftechAPI
 api = ShiftechAPI()
 
 #requires token to operate
