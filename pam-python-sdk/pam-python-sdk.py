@@ -14,7 +14,7 @@ class ShiftechAPI:
         self.token = f'{token}'
     
 
-    def RequestToken():
+    def RequestToken(self):
 
 
         url = "https://pam.api.easyncpay.com/api/v1/token?Content-Type=application/json&Accept=application/json&Authorization=Basic {token}"
