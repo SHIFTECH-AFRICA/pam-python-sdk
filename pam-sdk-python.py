@@ -1,5 +1,6 @@
-import requests
 import json 
+from requests.request import *
+
 
 #beartoken = "ENTER BEAR TOKEN HERE IT EXPIRES AFTER 3600 SECONDS"
 consumerkey = str.format('ENTER THE CONSUMER KEY')
