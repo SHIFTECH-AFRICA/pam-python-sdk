@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pam-python-sdk
+Version: 1.0.0
+Summary: PAM api intergration
+Home-page: https://github.com/SHIFTECH-AFRICA/pam-python-sdk
+Author: Ian  Duncan
+Author-email: ian.duncan@shiftech.co.ke
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU GENERAL PUBLIC LICENSE
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# pam-python-sdk
+Integrating api's for https://pam.easyncpay.com/
+
+

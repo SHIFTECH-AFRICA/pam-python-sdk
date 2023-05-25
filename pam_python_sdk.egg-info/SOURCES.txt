@@ -1,0 +1,9 @@
+LICENSE.md
+README.md
+setup.py
+pam-python-sdk/__init__.py
+pam-python-sdk/pampythonsdk.py
+pam_python_sdk.egg-info/PKG-INFO
+pam_python_sdk.egg-info/SOURCES.txt
+pam_python_sdk.egg-info/dependency_links.txt
+pam_python_sdk.egg-info/top_level.txt
