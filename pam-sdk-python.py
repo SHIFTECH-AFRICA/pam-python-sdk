@@ -1,4 +1,4 @@
-from requests.request import *
+import requests
 import json
 
 
