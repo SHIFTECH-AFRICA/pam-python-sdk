@@ -1,72 +1,91 @@
 from pampythonsdk import ShiftechAPI
+
 api = ShiftechAPI()
 
-#requires token to operate
+
+# requires token to operate
 def RequestVALIDATION():
     try:
         response = api.PaybillTillNumbers()
         return response
     except Exception as e:
         print(f'{e}')
+
+
 def GetTOKEN():
     try:
         response = api.RequestToken()
         return response
     except Exception as e:
-        pass    
+        pass
+
 
 def Apps():
     try:
         response = api.RequestApps()
         return response
-    except Exception as e:pass 
+    except Exception as e:
+        pass
+
 
 def Transactions():
     try:
         response = api.RequestTransactions()
         return response
-    except Exception as e:pass
+    except Exception as e:
+        pass
 
-def   C2BRegistersUrl():
+
+def C2BRegistersUrl():
     try:
-        response = api.C2BRegister() 
+        response = api.C2BRegister()
         return response
-    except Exception as e:pass
+    except Exception as e:
+        pass
 
-def    pushSTK():
+
+def pushSTK():
     try:
         response = api.stkpush()
         return response
-    except Exception as e:pass
+    except Exception as e:
+        pass
 
-def   Paybulk():
+
+def Paybulk():
     try:
         response = api.BulkPayments()
         return response
-    except Exception as e:pass     
+    except Exception as e:
+        pass
 
-def  checkbalance():
+
+def checkbalance():
     try:
         response = api.balance()
         return response
-    except Exception as e:pass
+    except Exception as e:
+        pass
+
 
 def confirmpayments():
     try:
         response = api.ConfirmStkPayment()
         return response
-    except Exception as e:pass
+    except Exception as e:
+        pass
+
 
 def confirmwithdrwal():
-        try:
-            response = api.ConfirmWithdraw()
-            return response
-        except Exception as e:pass
-    
+    try:
+        response = api.ConfirmWithdraw()
+        return response
+    except Exception as e:
+        pass
 
 
-if  __name__ == "__main__":
-    
+if __name__ == "__main__":
+
     print(f".................shiftechafrica.com..........................")
     print(f"..............PAYMENT ACCOUNT MANAGEMENT.................... ")
     print(f"...............PAM API CLIENT V 1.O..........................")
@@ -107,4 +126,4 @@ if  __name__ == "__main__":
     elif selection == "10":
         confirmwithdrwal()
     else:
-        print(f"INVALID SELECTION,RETRY AGAIN")    
+        print(f"INVALID SELECTION,RETRY AGAIN")
