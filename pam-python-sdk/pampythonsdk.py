@@ -28,7 +28,7 @@ class ShiftechAPI:
 
         response = requests.request("GET", url, headers=headers, data=payload)
 
-        return response.json()
+        print(response.json())
 
     
     def PaybillTillNumbers(self):
@@ -48,7 +48,7 @@ class ShiftechAPI:
 
         response = requests.request("GET", url, headers=headers, data=payload)
 
-        return response.json()
+        print(response.json())
 
 
 
@@ -65,7 +65,7 @@ class ShiftechAPI:
 
         response = requests.request("GET", url, headers=headers, data=payload)
 
-        return response.json()
+        print(response.json())
 
 
     def RequestTransactions(self):
@@ -80,7 +80,7 @@ class ShiftechAPI:
 
         response = requests.request("GET", url, headers=headers, data=payload)
 
-        return response.json()
+        print(response.json())
 
     
     def C2BRegister(self):
@@ -98,7 +98,7 @@ class ShiftechAPI:
 
         response = requests.request("POST", url, headers=headers, data=payload)
 
-        return response.json()
+        print(response.json())
 
 
     def stkpush(self):
@@ -123,7 +123,7 @@ class ShiftechAPI:
 
         response = requests.request("POST", url, headers=headers, data=payload)
 
-        return response.json()
+        print(response.json())
 
 
     def BulkPayments(self):
@@ -148,7 +148,7 @@ class ShiftechAPI:
         response = requests.request("POST", url, headers=headers, data=payload)
 
     
-        return response.json()
+        print(response.json())
 
     def balance(self):
 
@@ -165,7 +165,7 @@ class ShiftechAPI:
 
         response = requests.request("POST", url, headers=headers, data=payload)
 
-        return response.json()
+        print(response.json())
 
     def ConfirmStkPayment(self):
 
@@ -184,7 +184,7 @@ class ShiftechAPI:
 
         response = requests.request("POST", url, headers=headers, data=payload)
 
-        return response.json()
+        print(response.json())
 
 
     def ConfirmWithdraw(self):        
