@@ -1,5 +1,5 @@
-import requests
-import json 
+import json
+import requests 
 
 #beartoken = "ENTER BEAR TOKEN HERE IT EXPIRES AFTER 3600 SECONDS"
 consumerkey = str.format('ENTER THE CONSUMER KEY')
