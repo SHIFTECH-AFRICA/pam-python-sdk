@@ -86,25 +86,25 @@ if  __name__ == "__main__":
 
     selection = int(input("ENTER ANY OF ABOVE ACTIONS TO OPERATE:"))
 
-    if selection == 1:
+    if selection == "1":
         GetTOKEN()
-    elif selection == 2:
+    elif selection == "2":
         RequestVALIDATION()
-    elif selection == 3:
+    elif selection == "3":
         Apps()
-    elif selection == 4:
+    elif selection == "4":
         Transactions()
-    elif selection == 5:
+    elif selection == "5":
         C2BRegistersUrl()
-    elif selection == 6:
+    elif selection == "6":
         pushSTK()
-    elif selection == 7:
+    elif selection == "7":
         Paybulk()
-    elif selection == 8:
+    elif selection == "8":
         checkbalance()
-    elif selection == 9:
+    elif selection == "9":
         confirmpayments()
-    elif selection == 10:
+    elif selection == "10":
         confirmwithdrwal()
     else:
         print(f"INVALID SELECTION,RETRY AGAIN")    
