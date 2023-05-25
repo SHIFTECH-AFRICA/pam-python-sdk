@@ -84,7 +84,7 @@ if  __name__ == "__main__":
     print(f"[9] CONFIRM STK PAYMENTS")
     print(f"[10] CONFIRM WIDTHDRAWALS")
 
-    selection = input("ENTER ANY OF ABOVE ACTIONS TO OPERATE:")
+    selection = int(input("ENTER ANY OF ABOVE ACTIONS TO OPERATE:"))
 
     if selection == 1:
         GetTOKEN()
