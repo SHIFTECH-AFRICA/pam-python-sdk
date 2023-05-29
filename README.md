@@ -4,7 +4,7 @@
   <b>Python Paybill Acount Manager</b><br>
   
   <br><br>
-  <a  href="https://pam.easyncpay.com/docs"><img align="center" src="https://github.com/dev-techguy/TechGuy/blob/master/doc.png" width="200"></a>
+  <a  href="https://pam.easyncpay.com/docs"><img  src="https://github.com/dev-techguy/TechGuy/blob/master/doc.png" width="200" align="center"></a>
 </p>
 
 ## Introduction
