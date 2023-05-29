@@ -44,7 +44,7 @@ secret = str.format('ENTER B2C SECRET HERE')
 
 ## Usage
 
-Follow the steps below on how to use the pam-pYTHON-sdk:
+Follow the steps below on how to use the pam-python-sdk:
 
 #### How to use the Library
 
