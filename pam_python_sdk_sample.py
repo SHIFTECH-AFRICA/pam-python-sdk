@@ -1,4 +1,4 @@
-from pampythonsdk import ShiftechAPI
+from pampythonsdk.pampythonsdk import ShiftechAPI
 
 api = ShiftechAPI()
 
